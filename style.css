@@ -1,0 +1,65 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #111;
+    color: #eee;
+    margin: 0;
+}
+
+header, footer {
+    background-color: #222;
+    text-align: center;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+}
+
+table {
+    margin: 1.5rem auto;
+    border-collapse: collapse;
+    background-color: #1a1a1a;
+}
+
+th, td {
+    border: 1px solid #555;
+    padding: 10px;
+}
+
+/* ID */
+#resultado {
+    margin-top: 2rem;
+}
+
+/* Classe */
+.mood-resultado {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+/* Herança */
+main p {
+    color: #bbb;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+}

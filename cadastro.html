@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escolher Mood</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Selecione seu Mood</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" aria-label="Ir para a página inicial">Início</a></li>
+                <li><a href="cadastro.html" aria-label="Ir para o formulário de mood">Mood</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <article>
+                <h2>Formulário de Moods</h2>
+                <form id="moodForm">
+                    <label for="nome">Seu nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome">
+
+                    <label for="mood">Escolha um mood:</label>
+                    <select id="mood" name="mood">
+                        <option value="alegre">Alegre</option>
+                        <option value="caotico">Caótico</option>
+                        <option value="triste">Triste</option>
+                        <option value="pensativo">Pensativo</option>
+                        <option value="raiva">Bravo</option>
+                    </select>
+
+                    <button type="button" id="mostrarBtn">Ver Recomendações</button>
+                </form>
+            </article>
+
+            <article id="resultado">
+                <!-- O JS vai inserir aqui as recomendações -->
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Pedro Alves © 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
