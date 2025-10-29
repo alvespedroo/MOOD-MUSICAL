@@ -73,7 +73,7 @@ botao.addEventListener("click", function exibirMood() {
             <div class="mood-resultado">
                 <h3>${nome || "Usuário"}, seu mood é APAIXONADO</h3>
                 <p>Você vibra com letras intensas, vocais marcantes e climas de amor ou desejo.</p>
-                <p><strong>Artistas:</strong> HIM, SZA, </p>
+                <p><strong>Artistas:</strong> HIM, SZA, Sade</p>
                 <p><strong>Recomendação:</strong> <i>Razorblade Romance - HIM, CRTL - SZA, Lovers Rock - SADE</i></p>
                 <img src="him.jpeg" alt="him capa">
                 <img src="sza.jpeg" alt="Katy da Voz e as Abusadas performando com atitude">
@@ -99,3 +99,4 @@ botao.addEventListener("click", function exibirMood() {
     // Insere o resultado na página
     resultado.innerHTML = conteudo;
 });
+
