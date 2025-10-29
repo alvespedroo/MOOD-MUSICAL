@@ -75,9 +75,9 @@ botao.addEventListener("click", function exibirMood() {
                 <p>Você vibra com letras intensas, vocais marcantes e climas de amor ou desejo.</p>
                 <p><strong>Artistas:</strong> HIM, SZA, </p>
                 <p><strong>Recomendação:</strong> <i>Razorblade Romance - HIM, CRTL - SZA, Lovers Rock - SADE</i></p>
-                <img src="him.jpg" alt="him capa">
+                <img src="him.jpeg" alt="him capa">
                 <img src="sza.jpeg" alt="Katy da Voz e as Abusadas performando com atitude">
-                <img src="sadejpeg" alt="Poppy capa">
+                <img src="sade.jpeg" alt="Poppy capa">
             </div>
         `;
     } else if (mood === "relaxado") {
